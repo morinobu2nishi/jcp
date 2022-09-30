@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kijidata [
+  <!ELEMENT kijidata (entry+)>
+  <!ELEMENT entry (day,label,title,content,url,image,alt)>
+  <!ELEMENT day (#PCDATA)>
+  <!ELEMENT label (#PCDATA)>
+  <!ELEMENT title (#PCDATA)>  
+  <!ELEMENT content (#PCDATA)>
+  <!ELEMENT url (#PCDATA)>
+  <!ELEMENT image (#PCDATA)>
+  <!ELEMENT alt (#PCDATA)>
+]>
+<kijidata>
+	<entry>
+		<day>2021.07.16</day>
+		<label>main</label>
+		<title>臨時国会要求で一致/野党４党党首が会談</title>
+		<content>日本共産党の志位和夫委員長、立憲民主党の枝野幸男代表、国民民主党の玉木雄一郎代表、社民党の福島瑞穂党首は１６日、国会内で会談し、憲法５３条に基づいて、臨時国会の召集を求めることで一致しました。</content>
+		<url>https://nisihiramorinobu.github.io/n0626/</url>
+		<image>img/2021071701_01_0.jpg</image>
+		<alt>写真</alt>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>sub</label>
+		<title>五輪　きっぱり中止に/新宿駅西口　共産党都議団が宣伝</title>
+		<content></content>
+		<url>https://nisihiramorinobu.github.io/n0626/</url>
+		<image></image>
+		<alt></alt>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>sub</label>
+		<title>国に上告断念を要請/「黒い雨」訴訟の原告ら</title>
+		<content></content>
+		<url>https://nisihiramorinobu.github.io/n0626/</url>
+		<image></image>
+		<alt></alt>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>syutyo</label>
+		<title>主張「黒い雨」再び勝訴/被爆者の苦しみ長引かせるな</title>
+		<content></content>
+		<url>https://nisihiramorinobu.github.io/n0626/</url>
+		<image></image>
+		<alt></alt>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>tyoryu</label>
+		<title>きょうの潮流</title>
+		<content></content>
+		<url>https://nisihiramorinobu.github.io/n0626/</url>
+		<image></image>
+		<alt></alt>
+	</entry>
+</kijidata>
