@@ -44,10 +44,10 @@ $(function(){
 	var $image = $(this).find('image').text();
 	var $alt = $(this).find('alt').text();
 
-	if($label === 'main'){
-		$('<a href="https://www.jcp.or.jp/akahata/">襍､譌苓ｨ倅ｺ倶ｸ隕ｧ</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
-	}else{
-	}
+	// if($label === 'main'){
+	// 	$('<a href="https://www.jcp.or.jp/akahata/">襍､譌苓ｨ倅ｺ倶ｸ隕ｧ</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
+	// }else{
+	// }
 		//HTML繧堤函謌�
 		if($label === 'main'){
 			if($image != ""){
@@ -69,11 +69,10 @@ $(function(){
 		} else if ($label === 'syutyo'){ //荳ｻ蠑ｵ縺ｮ蜃ｺ蜉�
 			$('<li>'+
 			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
-			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else if ($label === 'tyouryu'){//貎ｮ豬√�蜃ｺ蜉�
 			$('<li>'+
-			'<a href="'+$url+'">貎ｮ豬�ｼ�'+$title.substring(0,33)+'</a>'+
+			'<a href="'+$url+'">きょうの潮流'+$title.substring(0,33)+'</a>'+
 			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else {
