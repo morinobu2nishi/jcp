@@ -77,6 +77,18 @@
     font-size: 8px;
     font-size: 0.8rem;
   }
+
+  header .detail .btn {
+    cursor: pointer;
+    user-select: none;
+    padding: 12px;
+    border: 1px solid #bbb;
+    background-color: #bbb;
+  }
+  header .detail #resolt {
+
+    background-color: rgb(249, 220, 225);
+  }
   header .detail h1 {
     margin: 0;
     flex-grow: 2;
@@ -230,6 +242,7 @@
           display: block;
           overflow-y: scroll;
         }
+
 
 /* ----------------------------------------------------
     sidenavi

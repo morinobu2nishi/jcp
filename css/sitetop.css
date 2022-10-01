@@ -217,3 +217,38 @@
 .conl .pickupbox dl dd a:hober {
   border-bottom: 1px solid #db001c;
 }
+
+.akahatabox {
+  margin-top: 40px !important;
+  margin-bottom: 30px;
+  border-top: 1px solid #bbb;
+}
+.akahatabox h2 {
+  /* display: block; */
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  float: left;
+}
+.akahatabox h2:before {
+  content: '';
+  display: block;
+  margin-top: -1px;
+  border-top: 3px solid #db001c;
+  padding-top: 10px;
+}
+.akahatabox p.more {
+  margin: 0;
+}
+.akahatabox p.more a {
+  display: inline-block;
+  padding: 9px 0;
+}
+.akahatabox p.more a:after {
+  content: url(../images/common/icon_arrow01.png);
+  margin: 0 20px 0 8px;
+  position: relative;
+  top: 1px;
+}
