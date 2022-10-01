@@ -45,23 +45,19 @@ $(function(){
 	var $alt = $(this).find('alt').text();
 
 	if($label === 'main'){
-		$('<a href="https://www.jcp.or.jp/akahata/">赤旗記事一覧</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
-	}else{
-	}
-
-		if($label === 'main'){
+			$('<a href="https://www.jcp.or.jp/akahata/">赤旗記事一覧</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
 			if($image != ""){
-			$('<li>'+
-				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
-				'<p class="text">'+$content.substring(0,90)+'.....'+'</p></div>'+
-				'<div><img src="'+$image+'" alt="'+$alt+'" ></div>'+
-				'</a></li>').appendTo('section.akahatabox ul');
-			}else {
-				$('<li  class="noimg">'+
-				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
-				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
-				'</a></li>').appendTo('section.akahatabox ul');
-			}
+				$('<li>'+
+					'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
+					'<p class="text">'+$content.substring(0,90)+'.....'+'</p></div>'+
+					'<div><img src="'+$image+'" alt="'+$alt+'" ></div>'+
+					'</a></li>').appendTo('section.akahatabox ul');
+				}else {
+					$('<li  class="noimg">'+
+					'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
+					'<p class="text">'+$content.substring(0,90)+'......'+'</p></div>'+
+					'</a></li>').appendTo('section.akahatabox ul');
+				}
 		} else if ($label === 'sub'){
 			$('<li>'+
 			'<a href="'+$url+'">'+$title.substring(0,36)+'</a>'+
@@ -78,7 +74,6 @@ $(function(){
 		}
 	}
 
-	//髢｢謨ｰ螳溯｡�
 	$(function(){
 	xmlLoad();
 	});
